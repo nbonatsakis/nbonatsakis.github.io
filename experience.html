@@ -4,11 +4,45 @@ title: "Experience"
 permalink: experience.html
 ---
 
-<div class="page-header" id="banner">
-        <div class="row">
-          <div class="col-lg-8 col-md-7 col-sm-6">
-            <h1>Experience</h1>
-            <p class="lead">A touch of warmth</p>
-          </div>
-	  </div>
-  </div>
+{% include page_header.html 
+	title = "Experience"
+	body = "A software generalist, I've worked in the industry for 11+ years on everything from award-winning mobile apps to highly scalable back-end systems."
+	%}
+<div class="row h-100">
+	{% include experience_item.html 
+		image = "/images/rz_logo.png"
+		url = "http://raizlabs.com"
+		title = "Raizlabs"
+		body = "Some text" 
+		%} 
+	{% include experience_item.html 
+		image = "/images/atl_logo.png"
+		url = "http://apps.atlantiasoftware.com"
+		title = "Atlantia Software"
+		body = "Some text" 
+		%}
+</div>
+</br>
+<div class="row h-100">
+	{% include experience_item.html 
+		image = "/images/bc_logo.jpg"
+		url = "http://brightcove.com"
+		title = "Brightcove"
+		body = "Some text" 
+		%}
+	{% include experience_item.html 
+		image = "/images/ibm_logo.jpg"
+		url = "http://ibm.com"
+		title = "IBM (Unica)"
+		body = "Some text" 
+		%}
+</div>
+</br>
+<div class="row h-100">
+	{% include experience_item.html 
+		image = "/images/ebay_logo.jpg"
+		url = "http://ebay.com"
+		title = "eBay"
+		body = "Some text" 
+		%}
+</div>
