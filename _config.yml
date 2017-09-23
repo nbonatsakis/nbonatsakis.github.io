@@ -27,5 +27,4 @@ gems:
 pages_list:       
   Blog: 'https://medium.com/nickbona'
   Experience: '/experience.html'
-  Portfolio: '/portfolio.html'
   Contact: '/contact.html'
